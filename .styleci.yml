@@ -1,0 +1,17 @@
+php:
+  preset: laravel
+  disabled:
+    - unused_use
+  finder:
+    exclude:
+      - "legacy"
+    not-name:
+      - "index.php"
+      - "server.php"
+js:
+  finder:
+    exclude:
+      - "legacy"
+    not-name:
+      - "webpack.mix.js"
+css: true
